@@ -1,0 +1,186 @@
+.navigation__link, .logo-path:hover {
+  transition: all 0.4s ease-out;
+}
+
+.promo__text, .link-button, h1 {
+  font-family: "Poppins", Verdana, sans-serif;
+}
+
+.button, body {
+  font-family: "Open Sans", Verdana, sans-serif;
+}
+
+.ico {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.ico_play {
+  background-image: url("../../assets/icons/triangle.svg");
+  width: 18px;
+  height: 19px;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 4.4rem;
+  line-height: 5.4rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 3.4rem;
+  line-height: 4.6rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h4 {
+  font-size: 2.2rem;
+  line-height: 3rem;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h5 {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.button {
+  padding: 11px 25px 13px;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.button_bordered {
+  background: #ffffff;
+  border: 1px solid #bcd0e5;
+  color: #173a56;
+}
+.button_bordered:hover {
+  background: #bcd0e5;
+  border-color: #bcd0e5;
+}
+.button_colored {
+  background: #ff9900;
+  color: #ffffff;
+  border: 1px solid #ff9900;
+}
+.button_colored:hover {
+  background: #ff7549;
+  border-color: #ff7549;
+}
+
+.link-button {
+  color: #ff9900;
+  display: inline-flex;
+  align-items: center;
+}
+
+.link-button__text {
+  margin-left: 9px;
+}
+
+.logo-svg:hover .logo-path {
+  fill: #ff9900;
+}
+
+.header {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+  padding: 15px 0 17px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_buttons {
+  display: flex;
+  gap: 14px;
+}
+
+.wrapper {
+  max-width: 1197px;
+  margin: auto;
+}
+
+.contact-us {
+  background-color: #ffeee1;
+}
+
+.promo {
+  padding: 30px 0;
+}
+
+.promo__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promo__content {
+  padding-right: 65px;
+}
+
+.promo_title {
+  margin: 0 30px;
+}
+
+.promo__text {
+  max-width: 487px;
+  margin: 0 0 45px;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.promo__buttons {
+  align-items: center;
+  display: flex;
+  gap: 44px;
+}
+
+.navigation {
+  display: flex;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.navigation__link {
+  list-style: none;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.navigation__link:hover {
+  color: #ff9900;
+}
+
+/*# sourceMappingURL=style.css.map */

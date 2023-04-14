@@ -10,19 +10,30 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/pages/index.css" />
+    <link rel="stylesheet" href="/sass/style.css" />
     <title>Landing</title>
   </head>
   <body>
     <header class="header">
-      <div class="wrapper">
-        <a class="logo" href="#">logo </a>
+      <div class="wrapper header__wrapper">
+        <!-- IMG LOGO
+				 <a class="logo" href="#"
+          ><img src="../assets/Logo.svg" alt="logotype"
+        /></a>
+		  -->
+        <a href="#" class="logo"
+          ><object
+            data="../assets/Logo.svg"
+            type="image/svg+xml"
+            class="logo-object"
+          ></object
+        ></a>
         <nav class="header__navigation">
           <ul class="navigation">
-            <li>Home</li>
-            <li>Services</li>
-            <li>About</li>
-            <li>Product</li>
+            <li class="navigation__link">Home</li>
+            <li class="navigation__link">Services</li>
+            <li class="navigation__link">About</li>
+            <li class="navigation__link">Product</li>
           </ul>
         </nav>
         <div class="header_buttons">
@@ -33,20 +44,24 @@
     </header>
     <main>
       <section class="promo">
-        <div class="wrapper">
+        <div class="wrapper promo__wrapper">
           <div class="promo__content">
-            <h1>The Design Thinking <br />superpowers</h1>
-            <p>
+            <h1 class="promo__title">The Design Thinking <br />superpowers</h1>
+            <p class="promo__text">
               Tools, tutorials, design and innovation experts, all in one place!
               The most intuitive way to imagine your next user experience.
             </p>
             <div class="promo__buttons">
               <button class="button button_colored">Get started</button>
               <a href="#" class="link-button">
-                <span class="ico ico_play"></span>Watch the Video
+                <span class="ico ico_play"></span
+                ><span class="link-button__text">Watch the Video</span>
               </a>
             </div>
           </div>
+          <a class="imgmain" href="#"
+            ><img src="../assets/Image.svg" alt="imgmain"
+          /></a>
         </div>
       </section>
       <section class="tools">
