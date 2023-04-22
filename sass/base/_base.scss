@@ -3,7 +3,7 @@ html {
 }
 body {
   @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);
-  @extend %font-prim; 
+  @extend %font-prim;
 }
 
 h1 {
@@ -25,4 +25,9 @@ h4 {
 
 h5 {
   @include font($size: 1.6rem, $height: 2.6rem);
+}
+
+.block-shadowed {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
 }

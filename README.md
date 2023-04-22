@@ -1,2 +1,0 @@
-# PRODUCTLY
-simple landing
