@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/sass/style.css" />
+    <link rel="stylesheet" href="../sass/style.css" />
     <title>Landing</title>
   </head>
   <body>
@@ -334,7 +334,7 @@
             </div>
             <div class="contact-us_form">
               <form action method="POST">
-                <dgiv class="layout-2-column contact-us_line">
+                <div class="layout-2-column contact-us_line">
                   <input
                     class="contact-us__input"
                     type="text"
@@ -347,14 +347,16 @@
                     name="email"
                     placeholder="Your email"
                   />
-                </dgiv>
-                <textarea
-                  cols="60"
-                  rows="10"
-                  name="questions"
-                  placeholder="What do you want to ask?"
-                  class="contact-us_line"
-                ></textarea>
+                </div>
+                <div class="contact-us__textarea">
+                  <textarea
+                    cols="60"
+                    rows="10"
+                    name="questions"
+                    placeholder="What do you want to ask?"
+                    class="contact-us_line"
+                  ></textarea>
+                </div>
                 <div class="contact-us__button">
                   <button type="submit" class="button button_colored">
                     Send
