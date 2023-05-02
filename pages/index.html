@@ -73,7 +73,13 @@
             <div class="tool">
               <div class="tool__icon">
                 <div class="incon-square icon-square-lilium">
-                  <img src="../assets/icons/icon.svg" alt="first" />
+                  <a href="/PRODUCTLY/pages/index.html">
+                    <img
+                      src="../assets/icons/icon.svg"
+                      alt="first"
+                      href="vk.com"
+                    />
+                  </a>
                 </div>
                 <h4 class="tool__title">First click tests</h4>
                 <p class="tool__text">
@@ -84,7 +90,9 @@
             <div class="tool">
               <div class="tool__icon">
                 <div class="incon-square icon-square-yellows">
-                  <img src="../assets/icons/icon-2.svg" alt="first" />
+                  <a href="/PRODUCTLY/pages/index.html">
+                    <img src="../assets/icons/icon-2.svg" alt="first" />
+                  </a>
                 </div>
                 <h4 class="tool__title">Design surveys</h4>
                 <p class="tool__text">
@@ -95,7 +103,9 @@
             <div class="tool">
               <div class="tool__icon">
                 <div class="incon-square icon-square-red">
-                  <img src="../assets/icons/icon-3.svg" alt="first" />
+                  <a href="/PRODUCTLY/pages/index.html">
+                    <img src="../assets/icons/icon-3.svg" alt="first" />
+                  </a>
                 </div>
                 <h4 class="tool__title">Preference tests</h4>
                 <p class="tool__text">
@@ -106,7 +116,9 @@
             <div class="tool">
               <div class="tool__icon">
                 <div class="incon-square icon-square-blue">
-                  <img src="../assets/icons/icon-4.svg" alt="first" />
+                  <a href="/PRODUCTLY/pages/index.html">
+                    <img src="../assets/icons/icon-4.svg" alt="first" />
+                  </a>
                 </div>
                 <h4 class="tool__title">Five second tests</h4>
                 <p class="tool__text">
@@ -265,8 +277,8 @@
       </section>
       <section class="about-us">
         <div class="wrapper">
-          <h2 class="">About Us</h2>
-          <p>
+          <h2 class="about-us__title">About Us</h2>
+          <p class="about-us__description">
             Your About Us page is vital. It’s often the first stop in any user’s
             journey through a website or blog. It also shouldn’t be their last,
             because first impressions count online just as much as they do in
@@ -275,33 +287,45 @@
             conversion action (e.g., signing up for your newsletter, making a
             purchase).
           </p>
-          <div class="layout-3-column">
+          <div class="layout-3-column employee-container">
             <div class="employee block-shadowed">
               <div class="employee__content">
-                <h5>Kathy Rosenberg</h5>
+                <h5 class="employee__name">Kathy Rosenberg</h5>
                 <p class="employee__title">Product Manager</p>
-                <a href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
-                <img src="../assets/avatar/Avator.png" alt="employee__photo" />
-              </div>
-            </div>
-            <div class="employee__content">
-              <div class="employee block-shadowed">
-                <h5>Alexandra Boyarskaya</h5>
-                <p class="employee__title">Support Marketing Specialist</p>
-                <a href="mailto:kathyr@gmail.com">melania@gmail.com</a>
+                <a class="employee__contact" href="mailto:kathyr@gmail.com"
+                  >kathyr@gmail.com</a
+                >
                 <img
-                  src="../assets/avatar/Avator-2.png"
+                  class="employee_photo"
+                  src="../assets/avatar/avatar3.jpeg"
                   alt="employee__photo"
                 />
               </div>
             </div>
-            <div class="employee__content">
-              <div class="employee block-shadowed">
-                <h5>Melani Amini</h5>
-                <p class="employee__title">Photographer</p>
-                <a href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
+            <div class="employee block-shadowed">
+              <div class="employee__content">
+                <h5 class="employee__name">Alexandra Boyarskaya</h5>
+                <p class="employee__title">Support Marketing Specialist</p>
+                <a class="employee__contact" href="mailto:kathyr@gmail.com"
+                  >melania@gmail.com</a
+                >
                 <img
-                  src="../assets/avatar/Avator-3.png"
+                  class="employee_photo"
+                  src="../assets/avatar/avatar2.jpeg"
+                  alt="employee__photo"
+                />
+              </div>
+            </div>
+            <div class="employee block-shadowed">
+              <div class="employee__content">
+                <h5 class="employee__name">Melani Amini</h5>
+                <p class="employee__title">Photographer</p>
+                <a class="employee__contact" href="mailto:kathyr@gmail.com"
+                  >kathyr@gmail.com</a
+                >
+                <img
+                  class="employee_photo"
+                  src="../assets/avatar/avatar1.jpeg"
                   alt="employee__photo"
                 />
               </div>
@@ -323,13 +347,23 @@
                 content or completing a conversion action (e.g., signing up for
                 your newsletter, making a purchase).
               </p>
-              <p>
-                <span class="ico ico_phone"></span>
-                <a href="tel:+375223450099">+375 (22) 345-00-99</a>
+              <p class="contact-us__adress contact-us__phone">
+                <span class="ico ico_phone">
+                  <img src="../assets/icons/ico_phone.png" alt="phone_ico" />
+                </span>
+                <a class="contact-us__reference" href="tel:+79133993776"
+                  >+7(913)399-37-76</a
+                >
               </p>
-              <p>
-                <span class="ico ico_letter"></span>
-                <a href="mailto:emailname@gmail.com">emailname@gmail.com</a>
+              <p class="contact-us__adress contact-us__mail">
+                <span class="ico ico_letter">
+                  <img src="../assets/icons/ico_mail.png" alt="mail_ico" />
+                </span>
+                <a
+                  class="contact-us__reference"
+                  href="mailto:alexkor1303@yandex.ru"
+                  >alexkor1303@yandex.ru
+                </a>
               </p>
             </div>
             <div class="contact-us_form">
@@ -350,8 +384,6 @@
                 </div>
                 <div class="contact-us__textarea">
                   <textarea
-                    cols="60"
-                    rows="10"
                     name="questions"
                     placeholder="What do you want to ask?"
                     class="contact-us_line"
@@ -369,36 +401,36 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="wrapper">
-        <div class="layout-4-column">
-          <a href="#" class="logo"
-            ><object
-              data="../assets/Logo.svg"
-              type="image/svg+xml"
-              class="logo-object"
-            ></object
-          ></a>
-          <div class="footer-navigation">
-            <h4>Quick Links</h4>
-            <ul class="footer-navigation-links">
+      <div class="wrapper footer_wrapper">
+        <a href="#" class="logo"
+          ><object
+            data="../assets/Logo.svg"
+            type="image/svg+xml"
+            class="logo-object"
+          ></object
+        ></a>
+        <div class="footer-navigation layout-3-column">
+          <div class="footer-navigation__column">
+            <h4 class="footer-navigation__title">Quick Links</h4>
+            <ul class="footer-navigation__links">
               <li><a href="#">About Us</a></li>
               <li><a href="#">Blog</a></li>
               <li><a href="#">Contact us</a></li>
               <li><a href="#">FAQ</a></li>
             </ul>
           </div>
-          <div class="footer-navigation">
-            <h4>Legal Stuff</h4>
-            <ul class="footer-navigation-links">
+          <div class="footer-navigation__column">
+            <h4 class="footer-navigation__title">Legal Stuff</h4>
+            <ul class="footer-navigation__links">
               <li><a href="#">Disclamer</a></li>
               <li><a href="#">Financing</a></li>
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Terms of Services</a></li>
             </ul>
           </div>
-          <div class="footer-navigation">
-            <h4>Quick Links</h4>
-            <ul class="footer-navigation-links">
+          <div class="footer-navigation__column">
+            <h4 class="footer-navigation__title">Quick Links</h4>
+            <ul class="footer-navigation__links">
               <li><a href="#">About Us</a></li>
               <li><a href="#">Blog</a></li>
               <li><a href="#">Contact us</a></li>

@@ -11,15 +11,16 @@
 @import "base/buttons";
 @import "base/logo";
 @import "base/tags";
+@import "base/columns";
 
 // layouts
 
 @import "layout/header";
 @import "layout/wrapper";
-@import "layout/columns";
+@import "layout/footer";
 
 // Components
-
+@import "components/about-us";
 @import "components/contact-us";
 @import "components/promo";
 @import "components/navigation";
