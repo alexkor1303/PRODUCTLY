@@ -1,5 +1,6 @@
 .button {
   @extend %font-prim;
+
   padding: 11px 25px 13px;
   font-weight: 600;
   font-size: 1.6rem;
@@ -35,4 +36,7 @@
 
 .link-button__text {
   margin-left: 9px;
+  &:hover {
+    color: $color-additional;
+  }
 }

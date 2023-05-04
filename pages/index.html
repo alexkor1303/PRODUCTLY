@@ -16,18 +16,18 @@
   <body>
     <header class="header">
       <div class="wrapper header__wrapper">
-        <!-- IMG LOGO
-				 <a class="logo" href="#"
-          ><img src="../assets/Logo.svg" alt="logotype"
-        /></a>
-		  -->
-        <a href="#" class="logo"
-          ><object
-            data="../assets/Logo.svg"
-            type="image/svg+xml"
-            class="logo-object"
-          ></object
-        ></a>
+        <div class="header__logo-line">
+          <span class="hamburger">
+            <span class="hamburger__line"></span>
+          </span>
+          <a href="#" class="logo"
+            ><object
+              data="../assets/Logo.svg"
+              type="image/svg+xml"
+              class="logo-object"
+            ></object
+          ></a>
+        </div>
         <nav class="header__navigation">
           <ul class="navigation">
             <li class="navigation__link">Home</li>
@@ -46,7 +46,7 @@
       <section class="promo">
         <div class="wrapper promo__wrapper">
           <div class="promo__content">
-            <h1 class="promo__title">The Design Thinking <br />superpowers</h1>
+            <h1 class="promo__title">The Design Thinking superpowers</h1>
             <p class="promo__text">
               Tools, tutorials, design and innovation experts, all in one place!
               The most intuitive way to imagine your next user experience.
@@ -54,13 +54,16 @@
             <div class="promo__buttons">
               <button class="button button_colored">Get started</button>
               <a href="#" class="link-button">
-                <span class="ico ico_play"></span
+                <span class="ico ico_play">
+                  <img
+                    src="../assets/icons/triangle.svg"
+                    alt="play-icon" /></span
                 ><span class="link-button__text">Watch the Video</span>
               </a>
             </div>
           </div>
-          <a class="imgmain" href="#"
-            ><img src="../assets/Image.svg" alt="imgmain"
+          <a class="promo-image" href="#"
+            ><img class="promo__image" src="../assets/Image.svg" alt="imgmain"
           /></a>
         </div>
       </section>
@@ -69,7 +72,7 @@
           <h2 class="tools_title">
             We design tools to unveil<br />your superpowers
           </h2>
-          <div class="layout-4-column">
+          <div class="layout-4-column tool-container">
             <div class="tool">
               <div class="tool__icon">
                 <div class="incon-square icon-square-lilium">
@@ -81,7 +84,7 @@
                     />
                   </a>
                 </div>
-                <h4 class="tool__title">First click tests</h4>
+                <h 4 class="tool__title">First click tests</h>
                 <p class="tool__text">
                   While most people enjoy casino gambling
                 </p>
@@ -336,7 +339,7 @@
       <section class="contact-us">
         <div class="wrapper">
           <h2>Contact Us</h2>
-          <div class="layout-2-column">
+          <div class="layout-2-column contact-us-container ">
             <div class="contact-us_content">
               <p>
                 Your About Us page is vital. It’s often the first stop in any

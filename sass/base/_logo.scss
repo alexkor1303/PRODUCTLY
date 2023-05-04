@@ -1,8 +1,23 @@
-.logo-path:hover {
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo-object {
+  width: 160px;
+}
+.logo-path {
   @extend %transition;
 }
-.logo-svg:hover {
-  .logo-path {
-    fill: $color-primary;
+.logo-svg {
+  cursor: pointer;
+  &:hover {
+    .logo-path {
+      fill: $color-primary;
+    }
   }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
 }
